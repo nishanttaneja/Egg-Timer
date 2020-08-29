@@ -34,6 +34,9 @@
                                         <state key="normal" title="Soft" backgroundImage="soft_egg">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="harnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XhY-y4-a92"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojK-t8-EX5">
                                         <rect key="frame" x="120" y="0.0" width="100" height="127"/>
@@ -41,6 +44,9 @@
                                         <state key="normal" title="Medium" backgroundImage="medium_egg">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="harnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2GZ-Gj-LZi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9LT-Mr-MVZ">
                                         <rect key="frame" x="240" y="0.0" width="100" height="127"/>
@@ -48,6 +54,9 @@
                                         <state key="normal" title="Hard" backgroundImage="hard_egg">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="harnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6nc-yn-bVY"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -72,6 +81,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="progressBar" destination="erk-Sq-e26" id="8PT-OW-njg"/>
+                        <outlet property="titleLabel" destination="qtF-bh-CXs" id="zCL-xU-5sM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
