@@ -26,6 +26,8 @@
 		B4B7F76E24FA2506002C5445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4B7F77024FA2506002C5445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4B7F77624FA2558002C5445 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		B4B7F77824FA38FE002C5445 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B4B7F77924FA3A33002C5445 /* HomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,8 @@
 		B4B7F75624FA2501002C5445 = {
 			isa = PBXGroup;
 			children = (
+				B4B7F77824FA38FE002C5445 /* README.md */,
+				B4B7F77924FA3A33002C5445 /* HomeScreen.png */,
 				B4B7F76124FA2501002C5445 /* Egg Timer */,
 				B4B7F76024FA2501002C5445 /* Products */,
 			);
